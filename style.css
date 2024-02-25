@@ -1,12 +1,3 @@
-/* Fonts */
-/* font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal; */
-
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +15,32 @@ body{
     width: 100%;
 }
 
+/* SVG styling */
+.intro-image{
+    width: 40%;
+}
+.intro-image svg{
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+.link-and-svg{
+    display: flex;
+}
+.link-and-svg svg{
+    width: 20px;
+    height: 20px;
+}
+.second-image{
+    width: 40%;
+}
+.second-image svg{
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Remains to edit the arrow svg for the link in the second section */
 
 /* Header Section */
 .header-and-nav-section{
@@ -98,9 +115,7 @@ body{
     background-color: hsl(224, 93%, 68%);
     cursor: pointer;
 }
-.intro-image{
-    width: 40%;
-}
+
 
 /* .intro-image fit into div space */
 
@@ -109,12 +124,14 @@ body{
     background-image: url(images/bg-curve-desktop.svg);
     background-position: center;
     background-size: cover;
+    display: flex;
 }
 .top-second{
     align-items: center;
     display: block;
-    margin: 40px;
     height: 40em;
+    margin: 40px;
+    width: 50%;
 }
 .header-2{
     color: hsl(243, 87%, 12%);
