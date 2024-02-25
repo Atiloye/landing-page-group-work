@@ -1,0 +1,185 @@
+/* Fonts */
+/* font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-position: center;
+    background-size: cover;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+
+/* Header Section */
+.header-and-nav-section{
+    background-color: rgb(255, 255, 255);
+    margin: 40px;
+}
+.nav-div{  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-text a{
+    color: hsl(238, 22%, 44%);
+    margin-right: 40px;
+    text-decoration:none ;
+}
+.menu-text li{
+    display: inline-block;
+    list-style: none;
+}
+
+/* Top Section */
+.top-content-section{
+    margin: 40px;
+}
+.top-first{
+    /* border: 1px solid black; */
+    display: flex;
+    height: 30em;
+}
+.intro-text-and-form{
+    align-items: center;
+    height: 100vh;
+    padding: 5em 0;
+    width: 50%;
+}
+.intro-header{
+    color: hsl(243, 87%, 12%);
+    font-size: 35px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+}
+.Intro-text{
+    line-height: 1.5;
+}
+.intro-form{
+    margin-top: 20px;
+    width: 100%;
+}
+.intro-form input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 40px;
+    margin-right: 10px;
+    padding: 5px 20px;
+    width: 280px;
+}
+.intro-form button{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    transition: background-color 0.3s ease;
+    width: 180px;
+}
+.intro-form button:hover {
+    background-color: hsl(224, 93%, 68%);
+    cursor: pointer;
+}
+.intro-image{
+    width: 40%;
+}
+
+/* .intro-image fit into div space */
+
+/* Mid Section - Second Section */
+.mid-section{
+    background-image: url(images/bg-curve-desktop.svg);
+    background-position: center;
+    background-size: cover;
+}
+.top-second{
+    align-items: center;
+    display: block;
+    margin: 40px;
+    height: 40em;
+}
+.header-2{
+    color: hsl(243, 87%, 12%);
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.second-text-and-card{
+    display: block;
+    padding: 5em 0;
+}
+.second-text-and-card p{
+    line-height: 1.5;
+}
+.second-p-2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.second-p-link a{
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+}
+.second-p-link a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* Testimonial Card Styling */
+.testimonial-card{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.1);
+    width: 27rem;
+    padding: 2rem;
+}
+.card-text{
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.card-img-and-name{
+    display: flex;
+    margin-top: 20px;
+}
+.card-img-and-name h4{
+    font-size: 12px;
+    font-weight: 700;
+}
+.card-img-and-name p{
+    font-size: 12px;
+}
+.card-img-and-name img{
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 10px;
+    width: 40px;
+}
+
+
+
+/* Responsive design for devices 375px */
+@media screen and (max-width:375px){
+
+
+}
