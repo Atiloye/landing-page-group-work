@@ -10,7 +10,7 @@ body{
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1px;
     width: 100%;
 }
@@ -67,7 +67,6 @@ body{
     margin: 40px;
 }
 .top-first{
-    /* border: 1px solid black; */
     display: flex;
     height: 30em;
 }
@@ -101,6 +100,9 @@ body{
     padding: 5px 20px;
     width: 280px;
 }
+.intro-form input::placeholder {
+    color: rgba(128, 128, 128, 0.5);
+}
 .intro-form button{
     background-color: hsl(224, 93%, 58%);
     border: none;
@@ -129,7 +131,7 @@ body{
 .top-second{
     align-items: center;
     display: block;
-    height: 40em;
+    height: 50em;
     margin: 40px;
     width: 50%;
 }
@@ -197,6 +199,99 @@ body{
 
 /* Responsive design for devices 375px */
 @media screen and (max-width:375px){
-
-
+    body{
+        font-size: 12px;
+        max-width: 100%;
+    }
+    .top-content-section{
+        display: block;
+        margin: 20px;
+    }
+    .mid-section{
+        background-image: none;
+        margin: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-and-nav-section{
+        margin: 20px;
+    }
+    .menu-text ul{
+        display: inline-flex;
+    }
+    .menu-text li{
+        margin: 0 2px;
+    }
+    .fylo-logo svg{
+        height: 70%;
+        width: 70%;
+    }
+    .nav-div{  
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-text a{
+        margin: 0;
+    }
+    .top-first {
+        display: flex;
+        flex-direction: column;
+        height: 60em;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .intro-image {
+        height: 50%;
+        order: 1;
+        width: 100%;
+    } 
+    .intro-text-and-form {
+        display: block;
+        justify-content: center;
+        order: 2;
+        width: 100%;
+    }
+    .Intro-text{
+    margin-bottom: 1.5rem;
+    text-align: center;
+    }
+    .intro-header{
+        font-size: 24px;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    .intro-form input, .intro-form button{
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+    .top-second {
+        height: 50em;
+        margin: 0;
+        order: 2;
+        width: 100%;
+    }
+    .second-text-and-card{
+        font-size: 12px;
+        text-align: left;
+        width: 90%;
+    }
+    .header-2{
+        text-align: center;
+        font-size: 17px;
+    }
+    .link-and-svg{
+        justify-content: center;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .testimonial-card{
+        width: 90%;
+    }
+    .second-image{
+        height: 100%;
+        order: 1;
+        width: 90%;
+    }
 }
