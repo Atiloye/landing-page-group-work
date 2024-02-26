@@ -13,14 +13,12 @@
 ---
 
 ## Screenshot of desktop site.
-![desktop scnsht. 1]()
-![desktop scnsht. 2]()
-![desktop scnsht. 3]()
+![desktop scnsht. 1](images/desktop.jpeg)
+
 ---
 
 ## Screenshot of mobile site.
-![mobile scnsht. 1]()
-![mobile scnsht. 2]()
-![mobile scnsht. 3]()
+![mobile scnsht. 1](images/mobile.jpeg)
+
 ---
 
